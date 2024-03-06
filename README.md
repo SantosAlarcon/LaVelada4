@@ -1,4 +1,4 @@
-# Web conceptual de "La Velada del Año 4"
+# Web conceptual de 🥊 "La Velada del Año 4" 🥊  
 
 ## Introducción
 
@@ -9,5 +9,6 @@ Esta es una réplica de la página oficial de "La Velada del Año 4" de **Ibai L
 
 ## ⚠️ **ADVERTENCIA** ⚠️
 
-Este sitio Web es un proyecto con fines didácticos, para mostrar mis aptitudes con React y TailwindCSS. No tiene nada que ver con la página oficial del evento.ç
+Este sitio Web es un proyecto con fines didácticos, para mostrar mis aptitudes con React y TailwindCSS. No tiene nada que ver con la página oficial del evento.
+
 El sitio oficial de La Velada 4 es este: [URL del sitio del evento sin confirmar]
