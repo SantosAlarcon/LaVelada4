@@ -83,3 +83,9 @@ button:focus-visible {
 		background-color: #f9f9f9;
 	}
 }
+
+#patrocinadores {
+    fill: #ff0;
+    color: #ff0;
+    stroke: #ff0;
+}
