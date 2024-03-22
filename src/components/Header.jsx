@@ -9,6 +9,7 @@ const Header = () => {
 				<ul className="header__nav__links">
 					<li className="header__nav__link">Boxeadores</li>
 					<li className="header__nav__link">Artistas</li>
+                    <li className="header__nav__link">Cómo llegar</li>
 					<li className="header__nav__link">Entradas</li>
 				</ul>
 			</nav>
