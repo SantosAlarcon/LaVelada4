@@ -1,0 +1,26 @@
+.header__container {
+    display: flex;
+    padding: 2rem;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__nav__logo {
+    width: 96px;
+    height: 96px;
+}
+
+.header__nav__links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-family: "Fugaz One";
+    text-transform: uppercase;
+    color: #ff0;
+    text-shadow: 0 0 8px #ff06;
+}

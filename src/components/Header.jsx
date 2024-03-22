@@ -1,14 +1,15 @@
 import React from 'react'
+import "../styles/Header.css"
 
 const Header = () => {
 	return (
-		<header>
-			<nav className="flex justify-between p-8 items-center">
-				<img className="w-[92px] h-[92px]" src="/Logo.webp" alt="Logo de La Velada" />
-				<ul className="flex gap-8 font-['Fugaz_One'] uppercase text-[#ff0] text-2xl drop-shadow-[0_0_8px_#ff0]">
-					<li>Boxeadores</li>
-					<li>Artistas</li>
-					<li>Entradas</li>
+		<header className='header__container'>
+			<nav className="header__nav">
+				<img className="header__nav__logo" src="/Logo.webp" alt="Logo de La Velada" />
+				<ul className="header__nav__links">
+					<li className="header__nav__link">Boxeadores</li>
+					<li className="header__nav__link">Artistas</li>
+					<li className="header__nav__link">Entradas</li>
 				</ul>
 			</nav>
 		</header>

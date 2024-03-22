@@ -1,15 +1,23 @@
 import Alsa from "./Patrocinadores/Alsa"
+import "../styles/Patrocinadores.css"
+import Revolut from "./Patrocinadores/Revolut"
+import Vicio from "./Patrocinadores/Vicio"
+import Prime from "./Patrocinadores/Prime"
+import Spotify from "./Patrocinadores/Spotify"
+import CeraVe from "./Patrocinadores/CeraVe"
+import Grefusa from "./Patrocinadores/Grefusa"
 
 const Patrocinadores = () => {
     return (
-        <section className="p-4 flex gap-5 items-center justify-center">
-            <Alsa className="h-[36px]" />
-            <img id="patrocinadores" className="h-[36px] text-white" src="/patrocinadores/revolut.svg" alt="Revolut" />
-            <img id="patrocinadores" className="h-[36px] text-white" src="/patrocinadores/vicio.svg" alt="Vicio" />
-            <img id="patrocinadores" className="h-[36px] text-white" src="/patrocinadores/prime.svg" alt="Prime" />
-            <img id="patrocinadores" className="h-[36px] text-white" src="/patrocinadores/grefusa.svg" alt="Grefusa" />
-            <img id="patrocinadores" className="h-[36px] text-white" src="/patrocinadores/cerave.svg" alt="CeraVe" />
-            <img id="patrocinadores" className="h-[36px] text-white" src="/patrocinadores/spotify.svg" alt="Spotify" />
+        <section className="patrocinadores__container">
+            <Alsa className="patrocinadores__logo" alt="Alsa" />
+            <Revolut className="patrocinadores__logo" alt="Revolut" />
+            <Vicio className="patrocinadores__logo" alt="Vicio" />
+            <Prime className="patrocinadores__logo" alt="Prime" />
+            <Grefusa className="patrocinadores__logo" alt="Grefusa" />
+            <CeraVe className="patrocinadores__logo" alt="CeraVe" />
+            <Spotify className="patrocinadores__logo" alt="Spotify" />
+
         </section>
     )
 }

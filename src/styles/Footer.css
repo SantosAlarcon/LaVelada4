@@ -1,0 +1,13 @@
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-family: "Inter";
+
+    & b {
+        font-weight: 700;
+    }
+}

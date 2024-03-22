@@ -1,0 +1,12 @@
+.patrocinadores__container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.patrocinadores__logo {
+    color: #ff0;
+    height: 36px;
+}
